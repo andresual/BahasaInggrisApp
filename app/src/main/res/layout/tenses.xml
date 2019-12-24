@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.ta.hanafi.grammarepos.tenses.Tenses">
+
+    <ImageButton
+        android:id="@+id/btn_spt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/btn_pct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/simplepresent" />
+
+    <ImageButton
+        android:id="@+id/btn_pct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_spt"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_spt"
+        app:layout_constraintTop_toTopOf="@+id/btn_spt"
+        app:srcCompat="@drawable/presentcont" />
+
+    <ImageButton
+        android:id="@+id/btn_ppt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_spt"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_pct"
+        app:layout_constraintTop_toTopOf="@+id/btn_spt"
+        app:srcCompat="@drawable/presentperfect" />
+
+    <ImageButton
+        android:id="@+id/btn_ppct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_spt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_ppt"
+        app:layout_constraintTop_toTopOf="@+id/btn_spt"
+        app:srcCompat="@drawable/presentperfectcont" />
+
+    <ImageButton
+        android:id="@+id/btn_spastt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/btn_pct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spt"
+        app:srcCompat="@drawable/simplepast" />
+
+    <ImageButton
+        android:id="@+id/btn_pastct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_spastt"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_spt"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spt"
+        app:srcCompat="@drawable/pastcont" />
+
+    <ImageButton
+        android:id="@+id/btn_pastpt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_pastct"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_pct"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pct"
+        app:srcCompat="@drawable/pastperfect" />
+
+    <ImageButton
+        android:id="@+id/btn_pastpct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_pastpt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_ppt"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ppt"
+        app:srcCompat="@drawable/pastperfectcont" />
+
+    <ImageButton
+        android:id="@+id/btn_sft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/btn_pct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spastt"
+        app:srcCompat="@drawable/simplefuture" />
+
+    <ImageButton
+        android:id="@+id/btn_fct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_sft"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_spt"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spastt"
+        app:srcCompat="@drawable/futurecont" />
+
+    <ImageButton
+        android:id="@+id/btn_fpt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_fct"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_pct"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pastct"
+        app:srcCompat="@drawable/futureperfect" />
+
+    <ImageButton
+        android:id="@+id/btn_fpct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_fpt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_ppt"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pastpt"
+        app:srcCompat="@drawable/futureperfectcont" />
+
+    <ImageButton
+        android:id="@+id/btn_spft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/btn_pct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sft"
+        app:srcCompat="@drawable/pastfuture" />
+
+    <ImageButton
+        android:id="@+id/btn_pfct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_spft"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_spt"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sft"
+        app:srcCompat="@drawable/pastfuturecont" />
+
+    <ImageButton
+        android:id="@+id/btn_pfpt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_pfct"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ppct"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_pct"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fct"
+        app:srcCompat="@drawable/pastfutureperfect" />
+
+    <ImageButton
+        android:id="@+id/btn_pfpc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_pfpt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_ppt"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fpt"
+        app:srcCompat="@drawable/pastfutureperfectcont" />
+</android.support.constraint.ConstraintLayout>

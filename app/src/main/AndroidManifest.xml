@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ta.hanafi.grammarepos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tenses.PFPCActivity"
+            android:label="Past Future Perfect Continuous Tense"></activity>
+        <activity android:name=".tenses.PFPTActivity" />
+        <activity android:name=".tenses.PFCTActivity" />
+        <activity android:name=".tenses.SPFTActivity" />
+        <activity android:name=".tenses.FPCTActivity" />
+        <activity android:name=".tenses.FPTActivity" />
+        <activity android:name=".tenses.FCTActivity" />
+        <activity android:name=".tenses.SFTActivity" />
+        <activity android:name=".tenses.SPTActivity" />
+        <activity android:name=".tenses.PPCTActivity" />
+        <activity android:name=".tenses.PPTActivity" />
+        <activity android:name=".tenses.PCTActivity" />
+
+        <activity android:name=".tenses.SimplePresentTenseActivity"
+            android:label="Simple Present Tense"/>
+
+        <activity
+            android:name=".grammar.AdverbActivity"
+            android:label="Adverb" />
+        <activity
+            android:name=".grammar.AdjectiveActivity"
+            android:label="Adjective" />
+
+        <activity
+            android:name=".grammar.VerbActivity"
+            android:label="Verb" />
+        <activity
+            android:name=".grammar.NounActivity"
+            android:label="Noun" />
+        <activity android:name=".MainActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".grammar.Grammar" />
+        <activity android:name=".tenses.Tenses" />
+        <activity android:name=".Soal" />
+        <activity android:name=".Tentang" />
+    </application>
+
+</manifest>

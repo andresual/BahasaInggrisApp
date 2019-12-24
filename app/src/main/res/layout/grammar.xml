@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.ta.hanafi.grammarepos.grammar.Grammar">
+
+    <Button
+        android:id="@+id/btn_noun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noun"
+        app:layout_constraintBottom_toTopOf="@+id/btn_verb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_verb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verb"
+        app:layout_constraintBottom_toTopOf="@+id/btn_adj"
+        app:layout_constraintEnd_toEndOf="@+id/btn_noun"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_noun"
+        app:layout_constraintTop_toBottomOf="@+id/btn_noun" />
+
+    <Button
+        android:id="@+id/btn_adj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adjective"
+        app:layout_constraintBottom_toTopOf="@+id/btn_adv"
+        app:layout_constraintEnd_toEndOf="@+id/btn_verb"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_verb"
+        app:layout_constraintTop_toBottomOf="@+id/btn_verb" />
+
+    <Button
+        android:id="@+id/btn_adv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adverb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_adj"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_adj"
+        app:layout_constraintTop_toBottomOf="@+id/btn_adj" />
+</android.support.constraint.ConstraintLayout>

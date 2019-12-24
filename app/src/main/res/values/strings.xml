@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Grammar &amp; EPOS</string>
+    <string name="mainButtonGrammar">GRAMMAR</string>
+    <string name="mainButtonTenses">TENSES</string>
+    <string name="mainButtonSoal">LATIHAN SOAL</string>
+    <string name="mainButtonTentang">TENTANG</string>
+</resources>
